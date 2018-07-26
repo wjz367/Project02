@@ -9,4 +9,10 @@ public class UserController {
         System.out.println("haha");
         return  "login";
     }
+
+    @RequestMapping(value = "/index")
+    public  String aaa() {
+        System.out.println("修改了");
+        return  "index";
+    }
 }
